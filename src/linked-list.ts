@@ -145,5 +145,3 @@ export class LinkedList {
     return node;
   }
 }
-
-const list: LinkedList = new LinkedList();
