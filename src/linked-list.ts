@@ -26,12 +26,11 @@ export class LinkedList {
 
     if (!this.length) {
       this.head = node;
-      this.tail = node;
     } else {
       this.tail.next = node;
-      this.tail = node;
     }
 
+    this.tail = node;
     this.length++;
 
     return node;
