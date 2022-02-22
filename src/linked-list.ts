@@ -144,3 +144,10 @@ export class LinkedList {
     return node;
   }
 }
+
+// const list: LinkedList = new LinkedList();
+
+// list.append('foo');
+// list.append('bar');
+
+// console.table(list);
