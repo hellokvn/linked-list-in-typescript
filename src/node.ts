@@ -1,8 +1,8 @@
 export class Node {
-  public value: any;
+  public value: unknown;
   public next: Node | null;
 
-  constructor(value: any) {
+  constructor(value: unknown) {
     this.value = value;
     this.next = null;
   }
