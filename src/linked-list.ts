@@ -6,7 +6,7 @@ export class LinkedList {
   public length: number;
 
   constructor(value?: unknown) {
-    if (!value) {
+    if (value === null || value === undefined) {
       this.head = null;
       this.tail = null;
       this.length = 0;
